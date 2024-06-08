@@ -12,7 +12,7 @@ export const NavigationBar = () => {
           <Link href={"/"}>Specialities</Link>
         </button>
         <button>
-          <Link href={"/"}>Work</Link>
+          <Link href={"/#work"}>Work</Link>
         </button>
         <button>
           <Link href={"/"}>Pricing</Link>
