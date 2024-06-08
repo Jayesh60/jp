@@ -19,7 +19,7 @@ function OnlinePresence() {
       </div>
 
       <div className="max-width py-10 flex flex-col gap-4 items-center justify-center">
-        <h1 className="title flex items-center gap-2 text-[40px] font-semibold">
+        <h1 className="title flex items-center gap-2 tracing-[-5%] text-[40px] font-semibold">
           <span>We don't just create websites, we create experiences</span>{" "}
           <span>
             <img src="/icons/triangle.svg" alt="" />

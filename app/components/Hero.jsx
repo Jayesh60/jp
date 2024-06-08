@@ -13,7 +13,7 @@ export const Hero = () => {
               month
             </span>
 
-            <h1 className="text-[80px] leading-[80px] text-balance font-semibold py-2">
+            <h1 className="text-[80px] leading-[80px] tracking-[-5%] text-balance font-semibold py-2">
               For website that generate revenue
             </h1>
             <p className="text-balance text-desc">
