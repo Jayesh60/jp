@@ -22,7 +22,7 @@
         @apply bg-btn-gradient px-6 py-2.5 text-white rounded-3xl font-semibold text-lg
     }
     .max-width{
-      @apply mx-auto max-w-[1270px] 
+      @apply mx-auto max-w-[1270px]
     }
 
 }
