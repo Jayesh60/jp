@@ -13,7 +13,7 @@ export const Hero = () => {
               month
             </span>
 
-            <h1 className="text-[80px] leading-[80px] tracking-[-5%] text-balance font-semibold py-2">
+            <h1 className="text-[80px] leading-[80px] tracking-[-4px] text-balance font-semibold py-2">
               For website that generate revenue
             </h1>
             <p className="text-balance text-desc">
@@ -31,33 +31,33 @@ export const Hero = () => {
         <img
           src="/hero/img1.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:left-0 xl:left-4 top-5 left-8 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:left-0 xl:left-4 top-5 left-8 rounded-lg"
         />
         <img
           src="/hero/img3.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:-left-20 xl:-left-14 top-[35%] -left-4 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:-left-20 xl:-left-14 top-[35%] -left-4 rounded-lg"
         />
         <img
           src="/hero/img1.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:left-0 xl:left-4 bottom-5 left-8 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:left-0 xl:left-4 bottom-5 left-8 rounded-lg"
         />
 
         <img
           src="/hero/img1.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:right-0 xl:right-4 top-5 right-8 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:right-0 xl:right-4 top-5 right-8 rounded-lg"
         />
         <img
           src="/hero/img3.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:-right-20 xl:-right-14 top-[35%] -right-4 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:-right-20 xl:-right-14 top-[35%] -right-4 rounded-lg"
         />
         <img
           src="/hero/img1.png"
           alt=""
-          className="h-[28%] object-cover aspect-video absolute 2xl:right-0 xl:right-4 bottom-5 right-8 rounded-lg"
+          className="h-[28%] object-cover aspect-video absolute z-0 2xl:right-0 xl:right-4 bottom-5 right-8 rounded-lg"
         />
       </div>
     </div>

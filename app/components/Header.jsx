@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <>
+    <div className="z-[10000] relative">
       <Image
         src={"/logo/favicon.ico"}
         width={50}
@@ -13,6 +13,6 @@ export const Header = () => {
       <Link href={"/"} className="fixed top-2 right-10 btn">
         Book a call
       </Link>
-    </>
+    </div>
   );
 };
