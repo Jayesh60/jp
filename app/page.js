@@ -1,5 +1,7 @@
+import FAQs from "./components/FAQs";
 import { Hero } from "./components/Hero";
 import Offer from "./components/Offer";
+import Presence from "./components/Presence";
 import ProjectsParent from "./components/ProjectsParent";
 import Specialities from "./components/Specialities";
 
@@ -9,7 +11,9 @@ export default function Home() {
       <Hero />
       <ProjectsParent />
       <Offer />
-      <Specialities/>
+      <Specialities />
+      <FAQs />
+      <Presence />
     </div>
   );
 }
