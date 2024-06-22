@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-function OnlinePresence() {
+function ProjectsParent() {
   return (
     <div className="py-20 ">
       <div
@@ -39,7 +39,7 @@ function OnlinePresence() {
   );
 }
 
-export default OnlinePresence;
+export default ProjectsParent;
 
 const Img = ({ src }) => {
   return (

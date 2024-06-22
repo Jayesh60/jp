@@ -1,13 +1,15 @@
 import { Hero } from "./components/Hero";
 import Offer from "./components/Offer";
-import OnlinePresence from "./components/OnlinePresence";
+import ProjectsParent from "./components/ProjectsParent";
+import Specialities from "./components/Specialities";
 
 export default function Home() {
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      <OnlinePresence />
+      <ProjectsParent />
       <Offer />
+      <Specialities/>
     </div>
   );
 }
