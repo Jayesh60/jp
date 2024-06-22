@@ -21,7 +21,7 @@ const offerData = [
 
 const Offer = () => {
   return (
-    <div className="py-20 bg-whitesmoke">
+    <div id="features" className="py-20 bg-whitesmoke">
       <div className="max-width h-[630px] relative py-14 px-16 bg-white rounded-[20px] flex">
         <div className="w-1/2 flex flex-col h-full justify-between">
           <div>

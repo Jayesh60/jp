@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const FAQs = () => {
   return (
-    <section className="py-20 px-16 bg-whitesmoke">
+    <section id="faq" className="py-20 px-16 bg-whitesmoke">
       <div className="max-width flex flex-col items-center justify-center gap-20">
         <span className="text-[50px] leading-[50px] tracking-tight text-black font-semibold">
           Frequently Asked Questions

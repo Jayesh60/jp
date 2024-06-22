@@ -6,10 +6,10 @@ export const NavigationBar = () => {
       <h1 className="left-24 absolute text-2xl font-bold">Devign</h1>
       <div className="max-w-[560px] mx-auto w-full flex justify-between z-10">
         <button>
-          <Link href={"/"}>Features</Link>
+          <Link href={"/#features"}>Features</Link>
         </button>
         <button>
-          <Link href={"/"}>Specialities</Link>
+          <Link href={"/#specialities"}>Specialities</Link>
         </button>
         <button>
           <Link href={"/#work"}>Work</Link>
@@ -18,7 +18,7 @@ export const NavigationBar = () => {
           <Link href={"/"}>Pricing</Link>
         </button>
         <button>
-          <Link href={"/"}>FAQ</Link>
+          <Link href={"/#faq"}>FAQ</Link>
         </button>
       </div>
     </div>

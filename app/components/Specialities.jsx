@@ -1,6 +1,6 @@
 const Specialities = () => {
   return (
-    <section className="py-20 px-16 bg-white">
+    <section id="specialities" className="py-20 px-16 bg-white">
       <div className="max-width flex justify-between items-start">
         <div>
           <h4 className="text-desc text-4xl">Our</h4>
