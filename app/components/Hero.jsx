@@ -6,9 +6,9 @@ export const Hero = () => {
     <div className="w-full bg-whitesmoke ">
       <NavigationBar />
       <div className="relative h-full max-width">
-        <div className="h-[80vh] border-b w-full flex items-center justify-center">
+        <div className="h-[80vh] w-full flex items-center justify-center">
           <div className="max-w-[740px] mx-auto text-center flex gap-2 justify-center items-center flex-col">
-            <span className="py-2 px-4 text-desc bg-shinywhite border-gradient">
+            <span className="py-2 px-4 text-desc bg-shinywhite border-collapse border-gradient rounded-3xl">
               <span className="font-semibold">10+</span> Calls received this
               month
             </span>

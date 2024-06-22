@@ -33,7 +33,7 @@ const Offer = () => {
                 What we offer?
               </span>
             </h1>
-            <p className="pt-4 font-medium w-[80%]">
+            <p className="pt-4 font-medium w-[80%] text-desc">
               We provide comprehensive solutions to enhance your online presence
               and maximize conversions.
             </p>
@@ -48,7 +48,7 @@ const Offer = () => {
                   </h2>
                 </div>
                 <div>
-                  <p>{item.desc}</p>
+                  <p className="text-desc">{item.desc}</p>
                 </div>
               </div>
             ))}

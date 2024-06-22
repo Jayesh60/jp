@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 function ProjectsParent() {
   return (
-    <div className="py-20 ">
+    <div className="py-20">
       <div
         id="work"
         className="max-width py-20 flex-col flex gap-8 rounded-xl bg-[#161616]"

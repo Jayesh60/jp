@@ -6,7 +6,6 @@
   .border-gradient {
     border: 1.4px solid;
     border-image-slice: 1;
-    border-radius: 50px !important;
     border-image-source: linear-gradient(
       225.4deg,
       rgba(255, 203, 160, 0.6) 0%,
@@ -16,18 +15,32 @@
   }
 }
 
-
 @layer components {
-    .btn{
-        @apply bg-btn-gradient px-6 py-2.5 text-white rounded-3xl font-semibold text-lg
-    }
-    .max-width{
-      @apply mx-auto max-w-[1270px]
-    }
-
+  .btn {
+    @apply bg-btn-gradient px-6 py-2.5 text-white rounded-3xl font-semibold text-lg;
+  }
+  .max-width {
+    @apply mx-auto max-w-[1270px];
+  }
 }
 
-*{
-  scroll-behavior: smooth!important;
+* {
+  scroll-behavior: smooth !important;
   box-sizing: border-box;
 }
+
+.title-gradient {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  background: linear-gradient(
+    225.4deg,
+    #ffcba0 0%,
+    #dd5789 48.12%,
+    #9b5be6 93.59%
+  );
+  font-weight: 700;
+  font-size: 116px;
+  line-height: 116px;
+}
+
