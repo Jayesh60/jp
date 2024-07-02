@@ -8,16 +8,16 @@ function ProjectsParent() {
         className="max-width py-20 flex-col flex gap-8 rounded-xl bg-[#161616]"
       >
         <Marquee pauseOnHover={false} speed={20}>
-          <Img src="/hero/img1.png" />
-          <Img src="/hero/img2.png" />
-          <Img src="/hero/img3.png" />
-          <Img src="/hero/img4.png" />
+          <Img src="/hero/img1.webp" />
+          <Img src="/hero/img2.webp" />
+          <Img src="/hero/img3.webp" />
+          <Img src="/hero/img4.webp" />
         </Marquee>
         <Marquee direction="right" pauseOnHover={false} speed={20}>
-          <Img src="/hero/img1.png" />
-          <Img src="/hero/img2.png" />
-          <Img src="/hero/img3.png" />
-          <Img src="/hero/img4.png" />
+          <Img src="/hero/img1.webp" />
+          <Img src="/hero/img2.webp" />
+          <Img src="/hero/img3.webp" />
+          <Img src="/hero/img4.webp" />
         </Marquee>
       </div>
 

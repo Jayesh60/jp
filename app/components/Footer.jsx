@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className=" w-full py-12 flex justify-between px-10 max-width">
         <div className="flex items-center gap-1">
           <Image src={"/logo/favicon.ico"} width={40} height={40} />
-          <h1 className="text-xl font-semibold">Devign</h1>
+          <h1 className="text-xl font-extrabold">Design Surge</h1>
         </div>
         <div className="flex gap-4">
           <Link href={"/"}>

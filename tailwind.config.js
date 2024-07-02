@@ -19,6 +19,8 @@ module.exports = {
         shinywhite: "#F0F0F0",
         desc: "#000000B2",
         gray: "#00000090",
+        blue: "#E0DAFF70",
+        "dark-blue": "#6248ff",
       },
     },
   },
